@@ -29,7 +29,7 @@ body {
   display: flex;
   align-items: end;
   position: absolute;
-  margin-bottom: 5vh;
+  margin-bottom: 10vh;
 }
 
 .modal {
