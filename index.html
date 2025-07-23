@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Open House</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="d-flex justify-content-center">
+        <img src="/src/Logo-OKMT-N.jpeg" class="w-25 h-25" alt="..." />
+      </div>
+
+      <div class="d-flex justify-content-center align-items-end">
+        <img src="/src/NAK MUAY 22.png" class="w-75 h-75" alt="..." />
+        <h1 class="card-title text-light aligmentImageHeader">MT7-V2</h1>
+      </div>
+
+      <div class="d-flex justify-content-center mt-3">
+        <h1 class="card-title">¡REGISTRATE AHORA!</h1>
+      </div>
+
+      <form id="formRegister">
+        <div class="mb-3">
+          <label for="inputNombre" class="form-label">Nombre(s)</label>
+          <input type="text" class="form-control" id="inputNombre" />
+          <p class="text-center mt-3 text-danger" id="errorMessageNombre"></p>
+        </div>
+        <div class="mb-3">
+          <label for="inputApellidos" class="form-label">Apellidos</label>
+          <input type="text" class="form-control" id="inputApellidos" />
+          <p
+            class="text-center mt-3 text-danger"
+            id="errorMessageApellidos"
+          ></p>
+        </div>
+        <div class="mb-3">
+          <label for="inputNumero" class="form-label">whatsApp</label>
+          <input type="number" class="form-control" id="inputNumero" />
+          <p class="text-center mt-3 text-danger" id="errorMessageNumero"></p>
+        </div>
+        <div class="mb-3">
+          <label for="inputCorreo" class="form-label">Correo electrónico</label>
+          <input type="email" class="form-control" id="inputCorreo" />
+          <p class="text-center mt-3 text-danger" id="errorMessageCorreo"></p>
+        </div>
+
+        <div class="mt-5">
+          <p class="text-center fs-3">
+            🔥 RETO MUAY THAI 🔥 7 DÍAS DE ENTRENAMIENTO GRATIS ¿Listo para
+            retarte de verdad? Hombres y mujeres están invitados a una semana
+            intensa de Muay Thai, totalmente gratuita. No importa tu nivel, solo
+            importa tu compromiso. Durante 7 días entrenarás con disciplina,
+            fuerza y enfoque. Necesitamos tu compromiso total: asistir todos los
+            días y publicar tu avance diario en redes sociales etiquetando al
+            gimnasio y dar todo en cada entrenamiento. Demuestra de qué estás
+            hecho. ¿Aceptas el desafío? 👊
+          </p>
+        </div>
+
+        <h2 class="text-center mb-4 mt-5">Compromisos del reto</h2>
+
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button fs-4"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+                X
+              >
+                Primer Compromiso
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong>1. Compromiso tota Ni un solo día faltante </strong>
+                <p>
+                  El corazón de este reto está en la constancia. Desde el primer
+                  día hasta el último, la asistencia es obligatoria. No se trata
+                  solo de entrenar, sino de demostrar disciplina y compromiso
+                  contigo mismo y con tu progreso. No importa si llueve, si hace
+                  calor o si tienes un mal día: ¡no se puede faltar!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fs-4"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Segundo Compromiso
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong
+                  >2. Entrena con intensidad. Da el 100% en cada sesión.</strong
+                >
+                <br />
+                <p>
+                  Cada entrenamiento es una oportunidad para superarte. No
+                  venimos a cumplir, venimos a romper límites. Aquí no hay
+                  espacio para medias tintas: si estás en la clase, estás para
+                  darlo todo. La actitud, el enfoque y la energía marcan la
+                  diferencia entre quien solo participa y quien realmente
+                  transforma su cuerpo y mente.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button
+                class="accordion-button collapsed fs-4"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Tercer Compromiso
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <strong
+                  >Presencia diaria en redes. Comparte tu esfuerzo con el
+                  mundo</strong
+                >
+
+                <br />
+
+                Parte del reto es inspirar y mantenerte conectado con la
+                comunidad. Cada día de entrenamiento deberás subir una
+                publicación a tus redes sociales (puede ser una foto, video o
+                historia) mostrando tu progreso, tu esfuerzo o tu experiencia
+                del día. Etiqueta siempre al gimnasio y usa el hashtag oficial
+                del reto. No hay excusas: si no se publica, ese día no cuenta.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mb-3 mt-3 form-check">
+          <input
+            type="checkbox"
+            class="form-check-input"
+            id="checkRulesForm"
+            value="true"
+            onclick="removeDisabledButton()"
+          />
+          <label
+            class="form-check-label text-center fs-5 text"
+            for="exampleCheck1"
+            >Confirmo que estoy de acuerdo con los compromisos establecidos para
+            cumplir el reto</label
+          >
+        </div>
+
+        <div class="d-flex justify-content-center mt-3 mb-4">
+          <button
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+            type="submit"
+            class="btn btn btn-danger disabled"
+            id="envioInfo"
+            onclick="return validarFormulario()"
+          >
+            Enviar registro
+          </button>
+        </div>
+      </form>
+    </div>
+
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="d-flex justify-content-center">
+              <img src="/src/Logo-OKMT-N.jpeg" class="w-25 h-25" alt="..." />
+            </div>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <div class="d-flex justify-content-center" id="spinnerForm">
+              <div class="spinner-border" role="status">
+                <span class="visually-hidden">Loading...</span>
+              </div>
+            </div>
+
+            <p id="mensajeRegistro" class="text-center"></p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-bs-dismiss="modal"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      emailjs.init("ZO05l9FeQQYU7dzLz");
+    </script>
+  </body>
+</html>

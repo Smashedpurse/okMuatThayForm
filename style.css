@@ -1,0 +1,55 @@
+body {
+  background-color: #a7fd36;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.accordion-button {
+  background-color: #a7fd36;
+  color: #000;
+  border: 0px;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #88c427;
+  color: #fff;
+}
+
+.accordion-button:hover {
+  background-color: #18200d;
+  color: #fff;
+}
+
+.accordion-button:focus {
+  border-color: #200d0d;
+}
+
+.aligmentImageHeader {
+  display: flex;
+  align-items: end;
+  position: absolute;
+  margin-bottom: 5vh;
+}
+
+.modal {
+  display: none;
+}
+
+.modal.activo {
+  display: block;
+}
+
+@media screen and (min-width: 768px) {
+  .aligmentImageHeader {
+    margin-bottom: 9vh !important;
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .aligmentImageHeader {
+    margin-bottom: 19vh !important;
+    font-size: 6rem;
+  }
+}
