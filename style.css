@@ -42,7 +42,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .aligmentImageHeader {
-    margin-bottom: 9vh !important;
+    margin-bottom: 17vh !important;
     font-size: 4rem;
   }
 }
@@ -50,6 +50,20 @@ body {
 @media screen and (min-width: 992px) {
   .aligmentImageHeader {
     margin-bottom: 24vh !important;
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 1339px) {
+  .aligmentImageHeader {
+    margin-bottom: 34vh !important;
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 1800px) {
+  .aligmentImageHeader {
+    margin-bottom: 27vh !important;
     font-size: 6rem;
   }
 }

@@ -94,8 +94,16 @@ function validarFormulario() {
           }
 
           document.getElementById("mensajeRegistro").innerHTML =
-            "✅ Registro exitoso. Revisa tu correo (incluidas las carpetas de spam).";
+            "✅ Registro exitoso. Revisa tu correo. En breve serás redirrecionado a Whatsapp por si tienes alguna duda";
           mostrarModal();
+
+          setTimeout(() => {
+            const mensaje = encodeURIComponent(
+              "Realicé mi registro. ¿Cuáles son los siguientes pasos?"
+            );
+            const numeroWhatsApp = "5215561929916";
+            window.location.href = `https://wa.me/${numeroWhatsApp}?text=${mensaje}`;
+          }, 5000);
         },
         (error) => {
           document.getElementById("mensajeRegistro").innerHTML =
