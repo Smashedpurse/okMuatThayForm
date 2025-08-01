@@ -30,6 +30,7 @@ body {
   align-items: end;
   position: absolute;
   margin-bottom: 10vh;
+  color: #8c52ff !important;
 }
 
 .modal {
