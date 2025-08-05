@@ -82,7 +82,7 @@ function validarFormulario() {
         apellidos: apellidos,
         numero: numero,
         correo: correo,
-        to_email: "smashedpurse@gmail.com",
+        to_email: "okmuaythaimx@gmail.com",
       };
 
       emailjs.send("service_1gf2saa", "template_djrcgwh", candidato).then(
